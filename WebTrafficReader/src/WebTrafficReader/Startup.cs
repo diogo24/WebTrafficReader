@@ -43,6 +43,8 @@ namespace WebTrafficReader
             }
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
+            var trafficReaderService = new TrafficReaderService();
+            trafficReaderService.Start();
         }
 
         public IConfiguration Configuration { get; set; }
