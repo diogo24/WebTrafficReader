@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "WebTrafficReader"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-WebTrafficReader-bc58adf3-e002-483e-b587-df21f8f6612c;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
