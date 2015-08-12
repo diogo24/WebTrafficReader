@@ -1,0 +1,2195 @@
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 1 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50591.
+2:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 2 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50593.
+3:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.3417603780981153
+Session list contains: 5 sessions
+4:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.8416417681146413
+Session list contains: 5 sessions
+5:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.6653949224855751
+Session list contains: 5 sessions
+6:HTTP 200 for http://localhost:61878/Traffic
+Session list contains: 6 sessions
+7:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 7 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50605.
+8:HTTP 200 for http://0.docs.google.com:443
+Session list contains: 8 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50611.
+9:HTTP 200 for http://0.docs.google.com:443
+Session list contains: 9 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50613.
+10:HTTP 200 for http://ssl.gstatic.com:443
+Session list contains: 10 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50615.
+11:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 11 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+12:HTTP 200 for http://0.docs.google.com:443
+Session list contains: 12 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50619.
+14:HTTP 200 for http://plus.google.com:443
+13:HTTP 200 for http://plus.google.com:443
+Session list contains: 14 sessions
+Session list contains: 14 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=plus.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=plus.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: /Fiddler.CertMaker>37 A racing thread already successfully CreatedCert(plus.google.com)
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50621.
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50622.
+16:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.6056780284270644
+Session list contains: 17 sessions
+15:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.2135037335101515
+Session list contains: 17 sessions
+17:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.2368157252203673
+Session list contains: 17 sessions
+18:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 18 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50625.
+20:HTTP 200 for http://megahits.sapo.pt/ajax/noar/noar.aspx?randval=0.4691442297771573
+Session list contains: 20 sessions
+19:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/locutorplayer.aspx?randval=0.6913208712358028
+Session list contains: 20 sessions
+21:HTTP 200 for http://0.docs.google.com:443
+Session list contains: 21 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50627.
+22:HTTP 200 for http://www.google.com:443
+Session list contains: 22 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50629.
+Session list contains: 22 sessions
+24:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 24 sessions
+25:HTTP 200 for http://ssl.gstatic.com:443
+Session list contains: 25 sessions
+26:HTTP 200 for http://vortex.data.microsoft.com:443
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50685.
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50678.
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+28:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.6305890460498631
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+29:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.5715085987467319
+Session list contains: 28 sessions
+29:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.5715085987467319
+27:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.3669076985679567
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50688.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50691.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50691.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50693.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50691.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50693.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50695.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50691.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50693.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50695.
+30:HTTP 200 for http://localhost:61878/Traffic
+Session list contains: 32 sessions
+est was received from (chrome:5240) new client socket, port 50692.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50691.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50693.
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50695.
+30:HTTP 200 for http://localhost:61878/Traffic
+** LogString: [Fiddler] No HTTP request was received from (chrome:5240) new client socket, port 50694.
+Session list contains: 32 sessions
+40:HTTP 200 for http://ssl.gstatic.com:443
+Session list contains: 41 sessions
+34:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 41 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+35:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 41 sessions
+38:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 41 sessions
+31:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.3878676127642393
+Session list contains: 41 sessions
+33:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.32065126951783895
+Session list contains: 41 sessions
+32:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.2609750379342586
+Session list contains: 41 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50704.
+42:HTTP 200 for http://clients3.google.com:443
+Session list contains: 41 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50703.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50697.
+39:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 41 sessions
+37:HTTP 200 for http://dc.services.visualstudio.com:443
+36:HTTP 200 for http://dc.services.visualstudio.com:443
+Session list contains: 41 sessions
+Session list contains: 41 sessions
+41:HTTP 200 for http://dc.services.visualstudio.com:443
+Session list contains: 41 sessions
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=dc.services.visualstudio.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Reusing PrivateKey for new certificate.
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=dc.services.visualstudio.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: /Fiddler.CertMaker>81 A racing thread already successfully CreatedCert(dc.services.visualstudio.com)
+** LogString: /Fiddler.CertMaker>80 A racing thread already successfully CreatedCert(dc.services.visualstudio.com)
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50702.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50701.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50702.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50700.
+Starting FiddlerCore/4.5.1.0...
+** LogString: fiddler.network.gateway.connect>Connection to 127.0.0.1 failed. No connection could be made because the target machine actively refused it 127.0.0.1:50590. Will try DNS Failover if available.
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+2:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.6193548552691936
+4:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.978580238763243
+Session list contains: 4 sessions
+Session list contains: 4 sessions
+3:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.9075664191041142
+Session list contains: 4 sessions
+** LogString: fiddler.network.streaming> Streaming of response #1 to client failed: An existing connection was forcibly closed by the remote host. Leaking aborted.
+** LogString: fiddler.network.readresponse.failure> Session #1 was aborted System.OperationCanceledException Leaking response to client failed < An existing connection was forcibly closed by the remote host
+5:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 5 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50815.
+6:HTTP 200 for http://clients1.google.com:443
+Session list contains: 6 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=clients1.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=clients1.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50817.
+7:HTTP 200 for http://outlook.office365.com:443
+Session list contains: 7 sessions
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Reusing PrivateKey for new certificate.
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+** LogString: WinINET Registry change detected. Verifying proxy keys are intact...
+Session list contains: 7 sessions
+Session list contains: 7 sessions
+Session list contains: 7 sessions
+Session list contains: 7 sessions
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 6 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+2:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/capaemissao.aspx?randval=0.38258018414489925
+Session list contains: 6 sessions
+5:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/marqueeXS.aspx?randval=0.8948863837867975
+Session list contains: 6 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:6252) new client socket, port 50994.
+3:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 6 sessions
+6:HTTP 200 for http://nexus.officeapps.live.com:443
+Session list contains: 6 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+4:HTTP 200 for http://megahits.sapo.pt/ajax/acaboudetocar/acaboudetocar.aspx?randval=0.8313554713968188
+Session list contains: 6 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50996.
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+8:HTTP 200 for http://www.google.co.uk:443
+Session list contains: 8 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51009.
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 1 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49940.
+2:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 2 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49949.
+4:HTTP 200 for http://www.google.co.uk:443
+Session list contains: 4 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49952.
+Session list contains: 4 sessions
+5:HTTP 200 for http://www.google.co.uk:443
+Session list contains: 5 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49954.
+6:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 7 sessions
+7:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 7 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+8:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 8 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49960.
+9:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 9 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49962.
+10:HTTP 200 for http://dc.services.visualstudio.com:443
+11:HTTP 200 for http://dc.services.visualstudio.com:443
+Session list contains: 11 sessions
+Session list contains: 11 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49965.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49964.
+12:HTTP 200 for http://dc.services.visualstudio.com:443
+Session list contains: 12 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49968.
+13:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 14 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+14:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 14 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 49972.
+15:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 15 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+16:HTTP 200 for http://support.google.com:443
+Session list contains: 16 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=support.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=support.google.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49976.
+17:HTTP 200 for http://support.google.com:443
+Session list contains: 17 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49980.
+18:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 18 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 49982.
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://localhost:61878/lib/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css
+6:HTTP 200 for http://localhost:61878/lib/bootstrap/dist/css/bootstrap.css
+5:HTTP 200 for http://localhost:61878/lib/jquery/dist/jquery.js
+2:HTTP 200 for http://localhost:61878/lib/hammer.js/hammer.js
+3:HTTP 200 for http://localhost:61878/css/site.css
+3:HTTP 200 for http://localhost:61878/css/site.css
+hammer.js
+
+strap.css
+bootstrap-touch-carousel.css
+4:HTTP 200 for http://localhost:61878/lib/bootstrap/dist/js/bootstrap.js
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+7:HTTP 200 for http://localhost:61878/images/ASP-NET-Banners-01.png
+Session list contains: 8 sessions
+8:HTTP 200 for http://localhost:61878/lib/bootstrap-touch-carousel/dist/js/bootstrap-touch-carousel.js
+Session list contains: 8 sessions
+10:HTTP 200 for http://localhost:61878/images/ASP-NET-Banners-02.png
+Session list contains: 10 sessions
+9:HTTP 200 for http://localhost:61878/images/Banner-02-VS.png
+Session list contains: 10 sessions
+11:HTTP 200 for http://localhost:61878/images/Banner-01-Azure.png
+Session list contains: 11 sessions
+12:HTTP 200 for http://localhost:61878/favicon.ico
+Session list contains: 12 sessions
+13:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 13 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50083.
+14:HTTP 200 for http://www.google.co.uk:443
+Session list contains: 14 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50085.
+15:HTTP 200 for http://roaming.officeapps.live.com:443
+Session list contains: 15 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=roaming.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=roaming.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=roaming.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+16:HTTP 200 for http://roaming.officeapps.live.com:443
+Session list contains: 16 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=roaming.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+17:HTTP 302 for http://bet365.com/
+Session list contains: 17 sessions
+18:HTTP 302 for http://www.bet365.com/
+Session list contains: 18 sessions
+19:HTTP 302 for http://www.bet365.com/home/default.asp?
+Session list contains: 19 sessions
+20:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp.asp?&cb=10581216656
+Session list contains: 20 sessions
+21:HTTP 200 for http://www.bet365.com/home/js/swfobject_vB007cr.js
+Session list contains: 26 sessions
+27:HTTP 200 for http://www.bet365.com/home/js/languages/eng-msg_vA030cr.js
+Session list contains: 27 sessions
+22:HTTP 200 for http://www.bet365.com/home/js/cookies_vA007cr.js
+Session list contains: 27 sessions
+23:HTTP 200 for http://www.bet365.com/home/js/Browser_vA009cr.js
+Session list contains: 27 sessions
+28:HTTP 200 for http://www.bet365.com/home/images/flshchk/dark-x.gif
+Session list contains: 29 sessions
+25:HTTP 200 for http://www.bet365.com/home/js/msgbetbreak_vA009cr.js
+Session list contains: 30 sessions
+m/home/js/msgbetbreak_vA009cr.js
+26:HTTP 200 for http://www.bet365.com/home/js/BetBreakdown_vA010cr.js
+24:HTTP 200 for http://www.bet365.co24:HTTP 200 for http://www.bet365.com/home/js/globals_vA056cr.js
+24:HTTP 200 for http://www.bet365.com/home/js/globals_vA056cr.js
+Session list contains: 30 sessions
+Session list contains: 30 sessions
+29:HTTP 200 for http://www.bet365.com/home/js/webconsoleappcr_v86.js
+Session list contains: 30 sessions
+30:HTTP 200 for http://www.bet365.com/home/images/flshchk/adobe_flash-logo.gif
+Session list contains: 33 sessions
+32:HTTP 200 for http://www.bet365.com/home/FlashGen4/Secure/webconsoleapplogin.asp
+Session list contains: 34 sessions
+33:HTTP 200 for http://www.bet365.com/home/flashcheck.asp
+Session list contains: 34 sessions
+34:HTTP 200 for http://www.bet365.com/home/images/flshchk/390x147-FlashPlayer-Bg.gif
+Session list contains: 35 sessions
+35:HTTP 200 for http://www.bet365.com/FlshCkie-3.swf
+Session list contains: 40 sessions
+36:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleBoot/WebConsoleBoot-420.swf
+Session list contains: 41 sessions
+31:HTTP 200 for http://members.bet365.com/Members/Helpers/site.aspx
+Session list contains: 41 sessions
+37:HTTP 200 for http://www.bet365.com/home/js/FlashDetection_vA011cr.js
+Session list contains: 42 sessions
+38:HTTP 200 for http://www.bet365.com/home/js/flashcheckmsgs_v4cr.js
+Session list contains: 42 sessions
+39:HTTP 200 for http://www.bet365.com/home/js/checkmsgs_v1cr.js
+Session list contains: 42 sessions
+40:HTTP 200 for http://www.bet365.com/home/style/eng-font_vB5.css
+Session list contains: 42 sessions
+41:HTTP 200 for http://www.bet365.com/home/images/flashvercheck/50x51-flash-icon.jpg
+Session list contains: 42 sessions
+42:HTTP 200 for http://www.bet365.com/home/images/30x30-tool-icon.png
+Session list contains: 42 sessions
+43:HTTP 200 for http://www.bet365.com/home/images/flashvercheck/1x105-hdr-bg.gif
+Session list contains: 44 sessions
+44:HTTP 200 for http://www.bet365.com/home/images/flashvercheck/157x81-logo-bg.gif
+Session list contains: 44 sessions
+45:HTTP 200 for http://www.bet365.com/flashversion.swf
+Session list contains: 48 sessions
+46:HTTP 200 for http://members.bet365.com/Members/javascript/Release/Cookies_v0.js
+Session list contains: 48 sessions
+48:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/buildVersion-2.asp
+Session list contains: 49 sessions
+47:HTTP 200 for http://members.bet365.com/Members/javascript/Release/swfobject_v0.js
+Session list contains: 49 sessions
+49:HTTP 200 for http://members.bet365.com/Members/FlashObjects/FlshCkie-3.swf
+Session list contains: 51 sessions
+50:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=G4
+Session list contains: 51 sessions
+51:HTTP 200 for http://www.bet365.com/favicons/main-favicon.ico
+Session list contains: 51 sessions
+52:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/Gen4Base_RSL-529.swf
+Session list contains: 52 sessions
+53:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=F4
+Session list contains: 53 sessions
+54:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/FontLib_RSL-414.swf
+Session list contains: 54 sessions
+55:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=SL
+Session list contains: 55 sessions
+56:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/StyleLib_RSL-566.swf
+Session list contains: 56 sessions
+57:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=W4
+Session list contains: 57 sessions
+58:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/WebLib_RSL-626.swf
+Session list contains: 58 sessions
+59:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=CA
+Session list contains: 59 sessions
+60:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/WebConsoleApp-539.swf
+Session list contains: 60 sessions
+61:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/linksConfig-59.asp?l=1
+Session list contains: 62 sessions
+62:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/config-139.asp?l=1&z=1&c=1439406395759410968495067209
+Session list contains: 62 sessions
+63:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/language_file_1-27.asp
+Session list contains: 63 sessions
+64:HTTP 200 for http://www.bet365.com/home/FlashGen4/h.htm?%23HO%23
+Session list contains: 65 sessions
+65:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HM
+Session list contains: 65 sessions
+67:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=FT
+Session list contains: 67 sessions
+66:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/HeaderModule-456.swf
+Session list contains: 68 sessions
+68:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=WN
+Session list contains: 70 sessions
+69:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/config-3.asp
+Session list contains: 71 sessions
+70:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/FooterModule-462.swf
+Session list contains: 71 sessions
+71:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=PL
+Session list contains: 72 sessions
+72:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/language_file_1-4.asp
+Session list contains: 75 sessions
+73:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=BS
+Session list contains: 75 sessions
+74:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/config-23.asp?l=1&cid=197
+Session list contains: 75 sessions
+75:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebNavModule/WebNavModule-429.swf
+Session list contains: 75 sessions
+77:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/language_file_1-14.asp
+Session list contains: 79 sessions
+76:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/xml/content-23.asp?cid=197&lang=1
+Session list contains: 79 sessions
+78:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebNavModule/config-2.asp
+Session list contains: 79 sessions
+79:HTTP 200 for http://www.bet365.com/home/FlashGen4/PodLoaderModule/PodLoaderModule-427.swf
+Session list contains: 81 sessions
+81:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Sports.png
+Session list contains: 83 sessions
+84:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/In-Play.png
+Session list contains: 84 sessions
+80:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AR&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 85 sessions
+85:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Financials.png
+Session list contains: 85 sessions
+82:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AL%23&wg=0&cid=197&cg=0
+Session list contains: 89 sessions
+86:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/GambleAware.png
+Session list contains: 90 sessions
+87:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/Gamcare.png
+Session list contains: 91 sessions
+88:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/Thawte.png
+Session list contains: 91 sessions
+89:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/ESSA_NEW.png
+Session list contains: 92 sessions
+90:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/18years.png
+Session list contains: 92 sessions
+91:HTTP 200 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/IBAS.png
+Session list contains: 92 sessions
+92:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Casino.png
+Session list contains: 92 sessions
+93:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/games.png
+Session list contains: 93 sessions
+94:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Poker.png
+Session list contains: 94 sessions
+95:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Vegas.png
+Session list contains: 95 sessions
+96:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Bingo.png
+Session list contains: 96 sessions
+83:HTTP 200 for http://www.bet365.com/home/FlashGen4/BetSlipModule/BetSlipModule-640.swf
+Session list contains: 96 sessions
+97:HTTP 200 for http://www.bet365.com/home/FlashGen4/BetSlipModule/config-15.asp
+Session list contains: 97 sessions
+98:HTTP 200 for http://www.bet365.com/home/FlashGen4/BetSlipModule/assets/language_file_1-38.asp
+Session list contains: 98 sessions
+99:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=CP
+Session list contains: 99 sessions
+101:HTTP 200 for http://www.bet365.com/home/FlashGen4/CenterPodModule/CenterPodModule-432.swf
+Session list contains: 102 sessions
+102:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TL
+Session list contains: 102 sessions
+103:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TC
+Session list contains: 105 sessions
+104:HTTP 200 for http://www.bet365.com/home/FlashGen4/CenterPodModule/config-4.asp?l=1
+Session list contains: 105 sessions
+100:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipLoadbet.ashx?1439406396688
+Session list contains: 105 sessions
+105:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=I4
+Session list contains: 105 sessions
+106:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IL
+Session list contains: 109 sessions
+107:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E1%23B0%23Z%5E1%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP181710_L1_Z1_C2_W1%23pHL181709_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 109 sessions
+109:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E3%23B0%23Z%5E1%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP181713_L1_Z1_C2_W1%23pHL181712_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 109 sessions
+108:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/InPlayV4Lib_RSL-469.swf
+Session list contains: 110 sessions
+110:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HC
+Session list contains: 110 sessions
+111:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/TopLauncherModule-444.swf
+Session list contains: 111 sessions
+112:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/config-1.asp
+Session list contains: 113 sessions
+113:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopCouponModule/TopCouponModule-425.swf
+Session list contains: 113 sessions
+114:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/assets/language_file_1-2.asp
+Session list contains: 117 sessions
+115:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IB
+Session list contains: 117 sessions
+116:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopCouponModule/config.asp
+Session list contains: 117 sessions
+117:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=GL
+Session list contains: 117 sessions
+118:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IN
+Session list contains: 120 sessions
+119:HTTP 200 for http://www.bet365.com/home/FlashGen4/TopCouponModule/assets/language_file_1-2.asp
+Session list contains: 120 sessions
+120:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/GridLib_RSL-464.swf
+Session list contains: 121 sessions
+121:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=RP
+Session list contains: 121 sessions
+122:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HP
+Session list contains: 123 sessions
+124:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/1.png
+Session list contains: 127 sessions
+123:HTTP 200 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/InPlayLauncherModule-475.swf
+Session list contains: 127 sessions
+126:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/2.png
+Session list contains: 127 sessions
+127:HTTP 200 for http://www.bet365.com/home/images/home/centre/pbb_Football_Derby_TomInce_0815_v6.jpg
+Session list contains: 127 sessions
+125:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/13.png
+Session list contains: 127 sessions
+128:HTTP 200 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/config-7.asp
+Session list contains: 129 sessions
+m/home/FlashGen4/InPlayLauncherModule/config-7.asp
+129:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=S4
+Session list contains: 129 sessions
+Session list contains: 129 sessions
+130:HTTP 200 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/assets/language_file_1-4.asp
+Session list contains: 131 sessions
+131:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/SportsLib_RSL-478.swf
+Session list contains: 131 sessions
+132:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/titles_live_inplay_6/1.png
+Session list contains: 137 sessions
+133:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/1.png
+Session list contains: 138 sessions
+134:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/13.png
+Session list contains: 139 sessions
+135:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/16.png
+Session list contains: 140 sessions
+136:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/18.png
+Session list contains: 140 sessions
+137:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/3.png
+Session list contains: 140 sessions
+138:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/4.png
+Session list contains: 140 sessions
+139:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/2.png
+Session list contains: 140 sessions
+140:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/17.png
+Session list contains: 140 sessions
+141:HTTP 200 for http://www.bet365.com/home/FlashGen4/CouponHighlightsPodModule/CouponHighlightsPodModule-426.swf
+Session list contains: 141 sessions
+142:HTTP 200 for http://www.bet365.com/home/FlashGen4/CouponHighlightsPodModule/config-1.asp
+Session list contains: 143 sessions
+143:HTTP 200 for http://www.bet365.com/home/FlashGen4/ImagePodModule/ImagePodModule-423.swf
+Session list contains: 143 sessions
+144:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AP%23B1%23A%5E1%23C%5E2%23D%5E11%23E%5E21&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 146 sessions
+145:HTTP 200 for http://www.bet365.com/home/FlashGen4/ImagePodModule/config-1.asp
+Session list contains: 146 sessions
+146:HTTP 200 for http://www.bet365.com/home/FlashGen4/InfoPodModule/InfoPodModule-429.swf
+Session list contains: 146 sessions
+147:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP181727_L1_Z1_C2_W1%23pHR181726_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 150 sessions
+148:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP181729_L1_Z1_C2_W1%23pHR181728_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 150 sessions
+149:HTTP 200 for http://www.bet365.com/home/FlashGen4/InfoPodModule/config-3.asp
+Session list contains: 150 sessions
+150:HTTP 200 for http://www.bet365.com/home/FlashGen4/RacingPodModule/RacingPodModule-448.swf
+Session list contains: 150 sessions
+151:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/260x100_PremLeague_eng_v6.gif
+Session list contains: 156 sessions
+155:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E3%23X1%23O%5E1%23w1%23tHP181732_L1_Z1_C2_W1%23pHR181731_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 157 sessions
+Session list contains: 157 sessions
+156:HTTP 200 for http://www.bet365.com/home/FlashGen4/RacingPodModule/config-2.asp
+Session list contains: 157 sessions
+157:HTTP 200 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/HighlightsPodModule-444.swf
+Session list contains: 159 sessions
+158:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_Football_Arsenal_AlexisSanchez_0814.jpg
+Session list contains: 160 sessions
+159:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_soccer-bore-draw.jpg
+Session list contains: 161 sessions
+152:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/eng_Blackjack_v6.png
+Session list contains: 162 sessions
+154:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/eng_HILOGAMBLER_v6.png
+Session list contains: 162 sessions
+160:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_RHS-Cash-Out-ENG_0315.jpg
+Session list contains: 162 sessions
+161:HTTP 200 for http://www.bet365.com/home/FlashGen4/RacingPodModule/assets/language_file_1-1.asp
+Session list contains: 162 sessions
+162:HTTP 200 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/config-2.asp
+Session list contains: 162 sessions
+153:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/eng_Roulette_v6.png
+Session list contains: 162 sessions
+163:HTTP 200 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/assets/language_file_1-1.asp
+Session list contains: 163 sessions
+164:HTTP 200 for http://www.bet365.com/home/Images/RHS/highlights/hl_Football_IndependienteSantaFe_DayronMosquera_0815.jpg
+Session list contains: 164 sessions
+165:HTTP 200 for http://www.bet365.com/home/Images/RHS/highlights/hl_Football_SantiagoWanderers_CarlosMunoz_0815.jpg
+Session list contains: 165 sessions
+166:HTTP 200 for http://www.imagecache365.com/crossdomain.xml
+Session list contains: 166 sessions
+167:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/8815.GIF
+Session list contains: 172 sessions
+173:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/334505.GIF
+Session list contains: 173 sessions
+169:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/3383.GIF
+Session list contains: 174 sessions
+168:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/183.GIF
+Session list contains: 175 sessions
+e365.com/JockeySilksTransparent/183.GIF
+170:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/332292.GIF
+Session list contains: 175 sessions
+Session list contains: 175 sessions
+171:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/19866.GIF
+Session list contains: 177 sessions
+172:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/44721.GIF
+Session list contains: 178 sessions
+174:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/338071.GIF
+Session list contains: 178 sessions
+175:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/5025.GIF
+Session list contains: 178 sessions
+176:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/203513.GIF
+Session list contains: 178 sessions
+178:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/50311.GIF
+Session list contains: 178 sessions
+177:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/256285.GIF
+Session list contains: 178 sessions
+179:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 179 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50127.
+180:HTTP 200 for http://www.bet365.com/home/FlashGen4/h.htm?%23IP%23
+Session list contains: 180 sessions
+181:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IP
+Session list contains: 181 sessions
+183:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=LV
+Session list contains: 183 sessions
+184:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=GM
+Session list contains: 184 sessions
+182:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/LiveInPlay4Module-663.swf
+Session list contains: 184 sessions
+185:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/config-21.asp
+Session list contains: 186 sessions
+186:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=ML
+Session list contains: 186 sessions
+187:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/language_file_1-22.asp
+Session list contains: 188 sessions
+188:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/MatchLiveLib_RSL-378.swf
+Session list contains: 188 sessions
+189:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/16.png
+Session list contains: 200 sessions
+190:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/18.png
+Session list contains: 201 sessions
+191:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/3.png
+Session list contains: 202 sessions
+192:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/4.png
+Session list contains: 203 sessions
+193:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/17.png
+Session list contains: 204 sessions
+194:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/1.png
+Session list contains: 205 sessions
+201:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/16.png
+Session list contains: 206 sessions
+202:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/18.png
+Session list contains: 207 sessions
+203:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/3.png
+Session list contains: 207 sessions
+204:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/17.png
+Session list contains: 207 sessions
+205:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/2.png
+Session list contains: 207 sessions
+206:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/matchLiveClassIcons_2/13.png
+Session list contains: 207 sessions
+207:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/LiveViewModule-486.swf
+Session list contains: 207 sessions
+208:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/config-31.asp
+Session list contains: 209 sessions
+209:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/GamesModule-439.swf
+Session list contains: 210 sessions
+210:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/assets/language_file_1-5.asp
+Session list contains: 210 sessions
+211:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/config-18.asp?l=1&cid=197
+Session list contains: 211 sessions
+212:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/language_file_1-6.asp
+Session list contains: 213 sessions
+213:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E4%23X2%23O%5E1%23w1%23tXP177975_L1_Z1_C2_W1%23pXL177974_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 213 sessions
+214:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/Blackjack.png
+Session list contains: 218 sessions
+215:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_2012LiveStreaming_Argentina_Lavezzi_Paraguay_Ortiz.jpg
+Session list contains: 218 sessions
+216:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_newMobileOTM.JPG
+Session list contains: 218 sessions
+217:HTTP 200 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_PremLeague_90x50.jpg
+Session list contains: 218 sessions
+218:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=ME
+Session list contains: 218 sessions
+195:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/1_25x25.png
+Session list contains: 220 sessions
+200:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/6_25x25.png
+Session list contains: 220 sessions
+199:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/5_25x25.png
+Session list contains: 220 sessions
+197:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/3_25x25.png
+Session list contains: 220 sessions
+198:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/4_25x25.png
+Session list contains: 220 sessions
+219:HTTP 200 for http://www.bet365.com/home/FlashGen4/MediaPlayerCoreModule/MediaPlayerCoreModule-442.swf
+Session list contains: 220 sessions
+220:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/MiniRoulette.png
+Session list contains: 220 sessions
+196:HTTP 200 for http://www.help-pages.net/WebImages/images/greyhounds/premium-1/2_25x25.png
+Session list contains: 220 sessions
+221:HTTP 200 for http://www.bet365.com/home/FlashGen4/MediaPlayerCoreModule/config-9.asp
+Session list contains: 222 sessions
+222:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/ReelFruity.png
+Session list contains: 223 sessions
+223:HTTP 200 for http://www.bet365.com/home/FlashGen4/MediaPlayerCoreModule/assets/language_file_1-3.asp
+Session list contains: 223 sessions
+224:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/Astro.png
+Session list contains: 224 sessions
+225:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/Keno.png
+Session list contains: 225 sessions
+226:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/HiLoGambler.png
+Session list contains: 226 sessions
+227:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/assets/matchlive/1/definition_1-2.asp
+Session list contains: 228 sessions
+229:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/MiniSupercubes.png
+Session list contains: 229 sessions
+228:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule//assets/matchlive/pitches/1-18.swf
+Session list contains: 230 sessions
+230:HTTP 200 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/images/thumbnails/Roulette.png
+Session list contains: 230 sessions
+231:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/myteams_kits_1/1-7.swf
+Session list contains: 232 sessions
+232:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/images/myteams_kits_1/1-4.swf
+Session list contains: 232 sessions
+233:HTTP 200 for http://localhost:49404/e8c350b7726d4ed8b9ac5de2fa47b536/arterySignalR/ping?requestUrl=http%3A%2F%2Flocalhost%3A64954%2FSchemes%2FSchemeWizard%2F1%3F1439380407891&browserName=Chrome&userAgent=Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F44.0.2403.107+Safari%2F537.36&_=1439406408733
+Session list contains: 233 sessions
+234:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/graphic_1/iconbank-2.png
+Session list contains: 234 sessions
+236:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/graphic_1/class_headers_8/13c.jpg
+Session list contains: 236 sessions
+235:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/animation_text_1.asp
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+Session list contains: 236 sessions
+243:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 237 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50143.
+244:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipCreatebet.ashx?1439406430352
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+Session list contains: 238 sessions
+253:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 239 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50145.
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+Session list contains: 239 sessions
+265:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 240 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50151.
+Session list contains: 240 sessions
+267:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 241 sessions
+Session list contains: 241 sessions
+269:HTTP 200 for http://vortex.data.microsoft.com:443
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50154.
+Session list contains: 242 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+270:HTTP 200 for http://nexus.officeapps.live.com:443
+Session list contains: 243 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+271:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 244 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50161.
+272:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipCreatebet.ashx?1439406529300
+Session list contains: 245 sessions
+273:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 249 sessions
+274:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 249 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50165.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50167.
+275:HTTP 200 for http://syndication.twitter.com:443
+276:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 249 sessions
+Session list contains: 249 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50170.
+277:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 250 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+278:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipCreatebet.ashx?1439406601100
+Session list contains: 251 sessions
+279:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 252 sessions
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+3:HTTP 304 for http://localhost:61878/lib/bootstrap/dist/css/bootstrap.css
+4:HTTP 304 for http://localhost:61878/lib/bootstrap/dist/js/bootstrap.js
+
+2:HTTP 304 for http://localhost:61878/lib/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css
+5:HTTP 304 for http://localhost:61878/lib/jquery/dist/jquery.js
+4:HTTP 304 for http://localhost:61878/lib/bootstrap/dist/js/bootstrap.js
+6:HTTP 304 for http://localhost:61878/css/site.css
+1:HTTP 304 for http://localhost:61878/lib/hammer.js/hammer.js
+1:HTTP 304 for http://localhost:61878/lib/hammer.js/hammer.js
+tstrap.js
+6:HTTP 304 for http://localhost:61878/css/site.css
+p-touch-carousel/dist/css/bootstrap-touch-carousel.css
+1:HTTP 304 for http://localhost:61878/lib/hammer.js/hammer.js
+tstrap.js
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 6 sessions
+Session list contains: 7 sessions
+10:HTTP 304 for http://localhost:61878/images/Banner-01-Azure.png
+Session list contains: 11 sessions
+11:HTTP 304 for http://localhost:61878/images/ASP-NET-Banners-01.png
+Session list contains: 11 sessions
+9:HTTP 304 for http://localhost:61878/images/ASP-NET-Banners-02.png
+Session list contains: 11 sessions
+7:HTTP 304 for http://localhost:61878/lib/bootstrap-touch-carousel/dist/js/bootstrap-touch-carousel.js
+Session list contains: 11 sessions
+8:HTTP 304 for http://localhost:61878/images/Banner-02-VS.png
+Session list contains: 11 sessions
+12:HTTP 200 for http://localhost:61878/favicon.ico
+Session list contains: 12 sessions
+13:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 13 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50276.
+14:HTTP 200 for http://next-services.apps.microsoft.com/ApplicationRevocation/RevokedApps
+Session list contains: 14 sessions
+15:HTTP 200 for http://autodiscover-s.outlook.com:443
+Session list contains: 15 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=autodiscover-s.outlook.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=autodiscover-s.outlook.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=autodiscover-s.outlook.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+16:HTTP 200 for http://next-services.apps.microsoft.com:443
+Session list contains: 16 sessions
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=next-services.apps.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Reusing PrivateKey for new certificate.
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=next-services.apps.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=next-services.apps.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+17:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/assets/matchlive/13/definition_1-1.asp
+18:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule//assets/matchlive/pitches/13-6.swf
+** NotifyUser: Uncaught Exception in Session #17 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+Error getting value from 'ScopeId' on 'System.Net.IPAddress'.
+
+Type: Newtonsoft.Json.JsonSerializationException
+Source: Newtonsoft.Json
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+System.Net.Sockets.SocketException (0x80004005): The attempted operation is not supported for the type of object referenced
+   at System.Net.IPAddress.get_ScopeId()
+   at GetScopeId(Object )
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+ainerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+System.Net.Sockets.SocketException (0x80004005): The attempted operation is not supported for the type of object referenced
+   at System.Net.IPAddress.get_ScopeId()
+   at GetScopeId(Object )
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+19:HTTP 200 for http://googleads.g.doubleclick.net:443
+Session list contains: 19 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50288.
+20:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 20 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50290.
+21:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 21 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50292.
+25:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/1633.GIF
+Session list contains: 27 sessions
+22:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/4918.GIF
+Session list contains: 28 sessions
+e365.com/JockeySilksTransparent/4918.GIF
+27:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/3046.GIF
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+24:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/11382.GIF
+Session list contains: 28 sessions
+26:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/83686.GIF
+Session list contains: 28 sessions
+23:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/90088.GIF
+Session list contains: 28 sessions
+28:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/254227.GIF
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+Session list contains: 28 sessions
+35:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 29 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50306.
+36:HTTP 200 for http://outlook.office365.com:443
+Session list contains: 30 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+37:HTTP 200 for http://localhost:49404/e8c350b7726d4ed8b9ac5de2fa47b536/arterySignalR/ping?requestUrl=http%3A%2F%2Flocalhost%3A64954%2FSchemes%2FSchemeWizard%2F1%3F1439380407891&browserName=Chrome&userAgent=Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F44.0.2403.107+Safari%2F537.36&_=1439406708730
+Session list contains: 31 sessions
+38:HTTP 200 for http://plus.google.com:443
+Session list contains: 32 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50312.
+39:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 33 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+40:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebNavModule/WebNavModule-429.swf
+** NotifyUser: Uncaught Exception in Session #40 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+Error getting value from 'ScopeId' on 'System.Net.IPAddress'.
+
+Type: Newtonsoft.Json.JsonSerializationException
+Source: Newtonsoft.Json
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+System.Net.Sockets.SocketException (0x80004005): The attempted operation is not supported for the type of object referenced
+   at System.Net.IPAddress.get_ScopeId()
+   at GetScopeId(Object )
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+41:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AL%23&wg=0&cid=197&cg=0
+** NotifyUser: Uncaught Exception in Session #41 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+Error getting value from 'ScopeId' on 'System.Net.IPAddress'.
+
+Type: Newtonsoft.Json.JsonSerializationException
+Source: Newtonsoft.Json
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+System.Net.Sockets.SocketException (0x80004005): The attempted operation is not supported for the type of object referenced
+   at System.Net.IPAddress.get_ScopeId()
+   at GetScopeId(Object )
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.GetValue(Object target)
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+42:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 36 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50320.
+43:HTTP 200 for http://outlook.office365.com:443
+Session list contains: 37 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+44:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 38 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50324.
+45:HTTP 200 for http://www.bet365.com/home/FlashGen4/h.htm?%23IP%23
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+3:HTTP 200 for http://www.bet365.com/home/FlashGen4/h.htm?%23HO%23
+2:HTTP 200 for http://www.bet365.com/home/FlashGen4/PodLoaderModule/PodLoaderModule-427.swf
+1:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebNavModule/WebNavModule-429.swf
+** NotifyUser: Uncaught Exception in Session #3 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #2 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #1 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+4:HTTP 200 for http://autodiscover-s.outlook.com:443
+Session list contains: 4 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=autodiscover-s.outlook.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+5:HTTP 302 for http://www.bet365.com/
+** NotifyUser: Uncaught Exception in Session #5 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+7:HTTP 200 for http://www.bet365.com/home/FlashGen4/ImagePodModule/ImagePodModule-423.swf?csrt
+6:HTTP 200 for http://www.bet365.com/home/FlashGen4/ImagePodModule/ImagePodModule-423.swf?csrt
+** NotifyUser: Uncaught Exception in Session #7 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #6 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+8:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP181729_L1_Z1_C2_W1%23pHR181728_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+9:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP181727_L1_Z1_C2_W1%23pHR181726_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+** NotifyUser: Uncaught Exception in Session #8 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #9 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+10:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 10 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50605.
+12:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/260x100_PremLeague_eng_v6.gif
+** NotifyUser: Uncaught Exception in Session #12 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+11:HTTP 200 for http://www.bet365.com/home/Images/RHS/ImBan/eng_HILOGAMBLER_v6.png
+** NotifyUser: Uncaught Exception in Session #11 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 154
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+13:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 13 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50623.
+14:HTTP 200 for http://localhost:49404/e8c350b7726d4ed8b9ac5de2fa47b536/arterySignalR/ping?requestUrl=http%3A%2F%2Flocalhost%3A64954%2FSchemes%2FSchemeWizard%2F1%3F1439380407891&browserName=Chrome&userAgent=Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F44.0.2403.107+Safari%2F537.36&_=1439407308731
+Session list contains: 14 sessions
+15:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 15 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+** LogString: WinINET Registry change detected. Verifying proxy keys are intact...
+Session list contains: 15 sessions
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IP
+Session list contains: 3 sessions
+2:HTTP 304 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/config-21.asp
+4:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=LV
+Session list contains: 4 sessions
+** NotifyUser: Uncaught Exception in Session #2 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<>c__DisplayClass8_0.<Start>b__4(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 173
+   at Fiddler.FiddlerApplication.DoAfterSessionComplete(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+3:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 6 sessions
+5:HTTP 304 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/language_file_1-22.asp
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+Session list contains: 6 sessions
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+6:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=GM
+Session list contains: 6 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50770.
+7:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveInPlay4Module/assets/animation_text_1.asp
+Session list contains: 7 sessions
+8:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipCreatebet.ashx?1439407517080
+Session list contains: 8 sessions
+9:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 9 sessions
+10:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=ML&csrt
+Session list contains: 10 sessions
+11:HTTP 304 for http://www.bet365.com/home/FlashGen4/LiveViewModule/config-31.asp
+Session list contains: 11 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50777.
+13:HTTP 304 for http://www.bet365.com/home/FlashGen4/GamesModule/config-18.asp?l=1&cid=197
+12:HTTP 304 for http://www.bet365.com/home/FlashGen4/LiveViewModule/assets/language_file_1-5.asp
+** NotifyUser: Uncaught Exception in Session #13 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<>c__DisplayClass8_0.<Start>b__4(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 173
+   at Fiddler.FiddlerApplication.DoAfterSessionComplete(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+Session list contains: 13 sessions
+14:HTTP 304 for http://www.bet365.com/home/FlashGen4/GamesModule/assets/language_file_1-6.asp
+Session list contains: 14 sessions
+15:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E4%23X2%23O%5E1%23w1%23tXP166336_L1_Z1_C2_W1%23pXL166335_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 15 sessions
+16:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 16 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+17:HTTP 200 for http://www.bet365.com/home/FlashGen4/LiveViewModule/assets/matchlive/13/definition_1-1.asp?csrt
+Session list contains: 17 sessions
+18:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 18 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50785.
+19:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 19 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50787.
+20:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 20 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50789.
+21:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=ME
+Session list contains: 21 sessions
+22:HTTP 304 for http://www.bet365.com/home/FlashGen4/MediaPlayerCoreModule/config-9.asp
+Session list contains: 22 sessions
+23:HTTP 304 for http://www.bet365.com/home/FlashGen4/MediaPlayerCoreModule/assets/language_file_1-3.asp
+Session list contains: 23 sessions
+24:HTTP 200 for http://nexus.officeapps.live.com:443
+Session list contains: 24 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+25:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AL%23&wg=0&cid=197&cg=0
+Session list contains: 26 sessions
+26:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E1%23B0%23Z%5E1%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP169783_L1_Z1_C2_W1%23pHL169782_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+27:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E3%23B0%23Z%5E1%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP169786_L1_Z1_C2_W1%23pHL169785_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 27 sessions
+Session list contains: 27 sessions
+28:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AP%23B1%23A%5E1%23C%5E2%23D%5E11%23E%5E21&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 28 sessions
+29:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP169800_L1_Z1_C2_W1%23pHR169799_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 30 sessions
+30:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP169802_L1_Z1_C2_W1%23pHR169801_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 31 sessions
+31:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E3%23X1%23O%5E1%23w1%23tHP169805_L1_Z1_C2_W1%23pHR169804_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 31 sessions
+32:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 32 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+33:HTTP 200 for http://localhost:49404/e8c350b7726d4ed8b9ac5de2fa47b536/arterySignalR/ping?requestUrl=http%3A%2F%2Flocalhost%3A64954%2FSchemes%2FSchemeWizard%2F1%3F1439380407891&browserName=Chrome&userAgent=Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F44.0.2403.107+Safari%2F537.36&_=1439407608744
+Session list contains: 33 sessions
+34:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 34 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50799.
+35:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 35 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50802.
+Session list contains: 35 sessions
+Session list contains: 35 sessions
+38:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 36 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 50804.
+Session list contains: 36 sessions
+40:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 37 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 50808.
+41:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 38 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+** LogString: WinINET Registry change detected. Verifying proxy keys are intact...
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 2 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51043.
+2:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 2 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51045.
+3:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=WN
+4:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IB
+5:HTTP 304 for http://www.bet365.com/home/FlashGen4/ImagePodModule/config-1.asp
+6:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E3%23X1%23O%5E1%23w1%23tHP170247_L1_Z1_C2_W1%23pHR170246_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+7:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP170244_L1_Z1_C2_W1%23pHR170243_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+8:HTTP 200 for http://nexus.officeapps.live.com:443
+Session list contains: 9 sessions
+Session list contains: 9 sessions
+10:HTTP 304 for http://www.bet365.com/home/FlashGen4/WebNavModule/config-2.asp
+Session list contains: 10 sessions
+9:HTTP 200 for http://syndication.twitter.com:443
+11:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=RP&csrt
+** NotifyUser: Uncaught Exception in Session #6 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #5 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #4 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #5 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+Session list contains: 11 sessions
+Session list contains: 12 sessions
+Session list contains: 12 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=nexus.officeapps.live.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+13:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HP
+14:HTTP 200 for http://vortex.data.microsoft.com:443
+12:HTTP 200 for http://www.bet365.com/home/FlashGen4/RacingPodModule/config-2.asp
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51060.
+Session list contains: 15 sessions
+Session list contains: 15 sessions
+** NotifyUser: Uncaught Exception in Session #12 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+15:HTTP 304 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/config-2.asp
+16:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=CP
+Session list contains: 16 sessions
+** NotifyUser: Uncaught Exception in Session #16 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+17:HTTP 200 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/assets/language_file_1-1.asp
+Session list contains: 17 sessions
+18:HTTP 304 for http://www.bet365.com/home/FlashGen4/CenterPodModule/config-4.asp?l=1
+Session list contains: 18 sessions
+19:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E1%23B0%23Z%5E1%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP170225_L1_Z1_C2_W1%23pHL170224_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 19 sessions
+20:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E3%23B0%23Z%5E1%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP170228_L1_Z1_C2_W1%23pHL170227_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 20 sessions
+21:HTTP 200 for http://outlook.office365.com:443
+Session list contains: 21 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+22:HTTP 200 for http://outlook.office365.com:443
+Session list contains: 22 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=outlook.office365.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+23:HTTP 200 for http://www.bet365.com/home/FlashGen4/RacingPodModule/assets/language_file_1-1.asp?csrt
+Session list contains: 23 sessions
+24:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/302453.GIF
+Session list contains: 29 sessions
+25:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/171.GIF
+Session list contains: 30 sessions
+27:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/10774.GIF
+Session list contains: 30 sessions
+e365.com/JockeySilksTransparent/10774.GIF
+28:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/11135.GIF
+Session list contains: 30 sessions
+e365.com/JockeySilksTransparent/10774.GIF
+28:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/11135.GIF
+26:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/151434.GIF
+Session list contains: 30 sessions
+Session list contains: 30 sessions
+Session list contains: 30 sessions
+29:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/9060.GIF
+Session list contains: 30 sessions
+30:HTTP 200 for http://www.imagecache365.com/JockeySilksTransparent/231127.GIF
+Session list contains: 30 sessions
+31:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TL&csrt
+Session list contains: 31 sessions
+32:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TC
+Session list contains: 32 sessions
+33:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IL
+Session list contains: 34 sessions
+34:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/config-1.asp
+Session list contains: 36 sessions
+35:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HC
+Session list contains: 36 sessions
+36:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopCouponModule/config.asp
+Session list contains: 39 sessions
+37:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/assets/language_file_1-2.asp
+38:HTTP 304 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/config-7.asp
+Session list contains: 39 sessions
+** NotifyUser: Uncaught Exception in Session #37 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<>c__DisplayClass8_0.<Start>b__4(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 174
+   at Fiddler.FiddlerApplication.DoAfterSessionComplete(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+39:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=S4
+Session list contains: 40 sessions
+40:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopCouponModule/assets/language_file_1-2.asp
+Session list contains: 40 sessions
+41:HTTP 304 for http://www.bet365.com/home/FlashGen4/CouponHighlightsPodModule/config-1.asp
+Session list contains: 41 sessions
+42:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AP%23B1%23A%5E1%23C%5E2%23D%5E11%23E%5E21&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 42 sessions
+43:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 43 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51094.
+44:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 44 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51096.
+45:HTTP 200 for http://az667904.vo.msecnd.net:443
+Session list contains: 45 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=az667904.vo.msecnd.net, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=az667904.vo.msecnd.net, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51098.
+46:HTTP 200 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/assets/language_file_1-4.asp?csrt
+Session list contains: 46 sessions
+47:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 47 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51101.
+48:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 48 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+Session list contains: 48 sessions
+57:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 49 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51105.
+58:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 50 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51107.
+Session list contains: 50 sessions
+60:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 51 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51111.
+61:HTTP 200 for http://plus.google.com:443
+Session list contains: 52 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51129.
+62:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 53 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+63:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E4%23X2%23O%5E1%23w1%23tXP166894_L1_Z1_C2_W1%23pXL166893_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 54 sessions
+64:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 55 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51134.
+Starting FiddlerCore/4.5.1.0...
+** LogString: Created endpoint listening on port 0
+** LogString: Starting with settings: [Default]
+** LogString: Gateway: System
+Created endpoint listening on port 0
+Starting with settings: [Default]
+Gateway: System
+1:HTTP 200 for http://vortex.data.microsoft.com:443
+2:HTTP 200 for http://az667904.vo.msecnd.net:443
+Session list contains: 2 sessions
+Session list contains: 3 sessions
+** LogString: Cannot locate:
+	"MakeCert.exe"
+
+Please move makecert.exe to the Fiddler installation directory.
+** LogString: !Failed to initialize MakeCertEngine: System.IO.FileNotFoundException Cannot locate: "MakeCert.exe". Please move makecert.exe to the Fiddler installation directory.
+** LogString: /Fiddler.CertMaker> Using Fiddler.DefaultCertificateProvider+CertEnrollEngine for certificate generation
+3:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 3 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51320.
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51323.
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51322.
+4:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp.asp?&cb=10326412047
+5:HTTP 304 for http://www.bet365.com/home/js/Browser_vA009cr.js
+6:HTTP 304 for http://www.bet365.com/home/js/cookies_vA007cr.js
+7:HTTP 304 for http://www.bet365.com/home/js/BetBreakdown_vA010cr.js
+7:HTTP 304 for http://www.bet365.com/home/js/BetBreakdown_vA010cr.js
+9:HTTP 304 for http://www.bet365.com/home/js/msgbetbreak_vA009cr.js
+Session list contains: 9 sessions
+8:HTTP 304 for http://www.bet365.com/home/js/globals_vA056cr.js
+10:HTTP 304 for http://www.bet365.com/home/js/swfobject_vB007cr.js
+13:HTTP 200 for http://watson.telemetry.microsoft.com:443
+12:HTTP 200 for http://watson.telemetry.microsoft.com:443
+11:HTTP 200 for http://watson.telemetry.microsoft.com:443
+** NotifyUser: Uncaught Exception in Session #7 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+** NotifyUser: Uncaught Exception in Session #9 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+14:HTTP 200 for http://vortex.data.microsoft.com:443
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+Session list contains: 14 sessions
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Root Certificate located; private key in container '21f368a54542ecf627a7a3fa385ca363_9e26c3e5-4037-4f8c-8188-e383d7368270'
+** LogString: /Fiddler.CertMaker> Invoking CertEnroll for arguments: CN=watson.telemetry.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com
+15:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 15 sessions
+Session list contains: 16 sessions
+16:HTTP 304 for http://www.bet365.com/home/js/languages/eng-msg_vA030cr.js
+Session list contains: 16 sessions
+17:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 17 sessions
+Session list contains: 17 sessions
+Session list contains: 17 sessions
+Session list contains: 17 sessions
+Session list contains: 17 sessions
+Session list contains: 17 sessions
+Session list contains: 18 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+18:HTTP 304 for http://www.bet365.com/home/js/webconsoleappcr_v86.js
+Session list contains: 18 sessions
+Session list contains: 20 sessions
+20:HTTP 200 for http://www.bet365.com/home/FlashGen4/Secure/webconsoleapplogin.asp
+21:HTTP 304 for http://www.bet365.com/home/images/flshchk/adobe_flash-logo.gif
+Session list contains: 23 sessions
+Session list contains: 23 sessions
+22:HTTP 200 for http://www.bet365.com/home/flashcheck.asp
+23:HTTP 304 for http://www.bet365.com/home/images/flshchk/390x147-FlashPlayer-Bg.gif
+19:HTTP 200 for http://members.bet365.com/Members/Helpers/site.aspx
+Session list contains: 24 sessions
+Session list contains: 24 sessions
+Session list contains: 24 sessions
+24:HTTP 304 for http://www.bet365.com/home/FlashGen4/WebConsoleBoot/WebConsoleBoot-420.swf
+Session list contains: 24 sessions
+** LogString: /Fiddler.CertMaker> Finished CertEnroll for 'CN=watson.telemetry.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com'. Returning cert
+** LogString: /Fiddler.CertMaker>36 A racing thread already successfully CreatedCert(watson.telemetry.microsoft.com)
+** LogString: /Fiddler.CertMaker>35 A racing thread already successfully CreatedCert(watson.telemetry.microsoft.com)
+26:HTTP 304 for http://www.bet365.com/home/js/globals_vA056cr.js
+26:HTTP 304 for http://www.bet365.com/home/js/globals_vA056cr.js
+25:HTTP 304 for http://www.bet365.com/home/js/cookies_vA007cr.js
+27:HTTP 304 for http://www.bet365.com/home/js/swfobject_vB007cr.js
+29:HTTP 304 for http://members.bet365.com/Members/javascript/Release/Cookies_v0.js
+Session list contains: 30 sessions
+28:HTTP 304 for http://www.bet365.com/home/js/FlashDetection_vA011cr.js
+** NotifyUser: Uncaught Exception in Session #25 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+Session list contains: 30 sessions
+Session list contains: 31 sessions
+** NotifyUser: Uncaught Exception in Session #28 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+30:HTTP 304 for http://members.bet365.com/Members/javascript/Release/swfobject_v0.js
+Session list contains: 32 sessions
+31:HTTP 304 for http://www.bet365.com/home/js/flashcheckmsgs_v4cr.js
+32:HTTP 304 for http://www.bet365.com/home/js/checkmsgs_v1cr.js
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=watson.telemetry.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+33:HTTP 304 for http://members.bet365.com/Members/FlashObjects/FlshCkie-3.swf
+Session list contains: 33 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=watson.telemetry.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+Session list contains: 33 sessions
+Session list contains: 34 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=watson.telemetry.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51347.
+34:HTTP 304 for http://www.bet365.com/home/images/30x30-tool-icon.png
+Session list contains: 35 sessions
+35:HTTP 304 for http://www.bet365.com/home/images/flashvercheck/50x51-flash-icon.jpg
+Session list contains: 36 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51346.
+36:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/buildVersion-2.asp
+Session list contains: 36 sessions
+37:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=G4
+Session list contains: 37 sessions
+38:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/Gen4Base_RSL-529.swf
+Session list contains: 38 sessions
+39:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=F4
+Session list contains: 39 sessions
+40:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/FontLib_RSL-414.swf
+Session list contains: 40 sessions
+41:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=SL
+Session list contains: 41 sessions
+42:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/StyleLib_RSL-566.swf
+Session list contains: 42 sessions
+43:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=W4
+Session list contains: 43 sessions
+44:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/WebLib_RSL-626.swf
+Session list contains: 44 sessions
+45:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=CA
+Session list contains: 45 sessions
+46:HTTP 304 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/WebConsoleApp-539.swf
+Session list contains: 46 sessions
+47:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/linksConfig-59.asp?l=1
+Session list contains: 48 sessions
+48:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/config-139.asp?l=1&z=1&c=14394083247257894004490226507
+Session list contains: 48 sessions
+49:HTTP 200 for http://www.bet365.com/home/FlashGen4/WebConsoleApp/assets/language_file_1-27.asp
+Session list contains: 49 sessions
+50:HTTP 200 for http://www.bet365.com/home/FlashGen4/h.htm?%23HO%23
+Session list contains: 51 sessions
+51:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HM
+Session list contains: 51 sessions
+52:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/HeaderModule-456.swf
+53:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=FT
+Session list contains: 53 sessions
+Session list contains: 53 sessions
+54:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=WN
+55:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/config-3.asp
+Session list contains: 55 sessions
+Session list contains: 56 sessions
+56:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/FooterModule-462.swf
+Session list contains: 57 sessions
+57:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=PL
+Session list contains: 58 sessions
+58:HTTP 200 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/language_file_1-4.asp
+Session list contains: 59 sessions
+59:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=BS
+Session list contains: 60 sessions
+60:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/config-23.asp?l=1&cid=197
+Session list contains: 61 sessions
+61:HTTP 304 for http://www.bet365.com/home/FlashGen4/WebNavModule/WebNavModule-429.swf
+Session list contains: 61 sessions
+62:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/xml/content-23.asp?cid=197&lang=1
+Session list contains: 63 sessions
+63:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/language_file_1-14.asp
+Session list contains: 64 sessions
+64:HTTP 304 for http://www.bet365.com/home/FlashGen4/WebNavModule/config-2.asp
+Session list contains: 65 sessions
+65:HTTP 304 for http://www.bet365.com/home/FlashGen4/PodLoaderModule/PodLoaderModule-427.swf
+Session list contains: 66 sessions
+66:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Sports.png
+Session list contains: 67 sessions
+67:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AR&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 68 sessions
+69:HTTP 304 for http://www.bet365.com/home/FlashGen4/BetSlipModule/BetSlipModule-640.swf
+Session list contains: 69 sessions
+70:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/In-Play.png
+68:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AL%23&wg=0&cid=197&cg=0
+Session list contains: 70 sessions
+Session list contains: 71 sessions
+71:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/GambleAware.png
+72:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/Gamcare.png
+Session list contains: 72 sessions
+Session list contains: 73 sessions
+73:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/Thawte.png
+74:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/ESSA_NEW.png
+Session list contains: 74 sessions
+Session list contains: 75 sessions
+75:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/18years.png
+76:HTTP 304 for http://www.bet365.com/home/FlashGen4/FooterModule/assets/imagesV6/IBAS.png
+Session list contains: 76 sessions
+Session list contains: 77 sessions
+77:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=CP
+78:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Financials.png
+Session list contains: 78 sessions
+Session list contains: 79 sessions
+79:HTTP 304 for http://www.bet365.com/home/FlashGen4/BetSlipModule/config-15.asp
+Session list contains: 80 sessions
+80:HTTP 304 for http://www.bet365.com/home/FlashGen4/PodLoaderModule/PodLoaderModule-427.swf
+Session list contains: 81 sessions
+81:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TL
+Session list contains: 82 sessions
+82:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Casino.png
+Session list contains: 83 sessions
+83:HTTP 200 for http://www.bet365.com/home/FlashGen4/BetSlipModule/assets/language_file_1-38.asp
+Session list contains: 84 sessions
+84:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=TC
+Session list contains: 85 sessions
+85:HTTP 304 for http://www.bet365.com/home/FlashGen4/CenterPodModule/CenterPodModule-432.swf
+Session list contains: 86 sessions
+86:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/games.png
+Session list contains: 86 sessions
+87:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IL
+Session list contains: 88 sessions
+89:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Poker.png
+Session list contains: 89 sessions
+90:HTTP 304 for http://www.bet365.com/home/FlashGen4/CenterPodModule/config-4.asp?l=1
+Session list contains: 90 sessions
+91:HTTP 304 for http://www.bet365.com/home/FlashGen4/CenterPodModule/CenterPodModule-432.swf
+88:HTTP 200 for http://www.bet365.com/home/bettingslip/BetslipLoadbet.ashx?1439408325774
+Session list contains: 91 sessions
+Session list contains: 92 sessions
+92:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HC
+93:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Vegas.png
+Session list contains: 93 sessions
+Session list contains: 94 sessions
+94:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E1%23B0%23Z%5E1%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP181888_L1_Z1_C2_W1%23pHL181887_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 95 sessions
+95:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=I4
+Session list contains: 95 sessions
+96:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IB
+97:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/InPlayV4Lib_RSL-469.swf
+Session list contains: 97 sessions
+Session list contains: 98 sessions
+98:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E3%23B0%23Z%5E1%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP181891_L1_Z1_C2_W1%23pHL181890_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+99:HTTP 304 for http://www.bet365.com/home/FlashGen4/HeaderModule/assets/menuV6/lang1/Bingo.png
+Session list contains: 99 sessions
+Session list contains: 100 sessions
+100:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=IN
+Session list contains: 101 sessions
+101:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/TopLauncherModule-444.swf
+Session list contains: 101 sessions
+102:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=RP
+103:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/config-1.asp
+Session list contains: 103 sessions
+Session list contains: 104 sessions
+104:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopCouponModule/TopCouponModule-425.swf
+Session list contains: 105 sessions
+105:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=HP
+Session list contains: 106 sessions
+106:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopLauncherModule/assets/language_file_1-2.asp
+Session list contains: 107 sessions
+107:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopCouponModule/config.asp
+Session list contains: 108 sessions
+108:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=GL
+Session list contains: 108 sessions
+109:HTTP 304 for http://www.bet365.com/home/FlashGen4/TopCouponModule/assets/language_file_1-2.asp
+Session list contains: 109 sessions
+110:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/GridLib_RSL-464.swf
+Session list contains: 110 sessions
+111:HTTP 304 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/InPlayLauncherModule-475.swf
+Session list contains: 111 sessions
+113:HTTP 304 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/config-7.asp
+112:HTTP 200 for http://www.bet365.com/home/images/home/centre/pbb_Football_Derby_TomInce_0815_v6.jpg
+** NotifyUser: Uncaught Exception in Session #113 - Fiddler has encountered an unexpected problem. If you believe this is a bug in Fiddler, please copy this message by hitting CTRL+C, and submit a bug report using the Help | Send Feedback menu.
+
+The process cannot access the file 'C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Specific_log.txt' because it is being used by another process.
+
+Type: System.IO.IOException
+Source: mscorlib
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Fiddler.Session.SaveSession(String sFilename, Boolean bHeadersOnly)
+   at WebTrafficReader.Services.TrafficReaderService.<Start>b__8_3(Session oS) in C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\WebTrafficReader\src\WebTrafficReader\Services\TrafficReaderService.cs:line 155
+   at Fiddler.FiddlerApplication.DoBeforeResponse(Session oSession)
+   at Fiddler.Session.InnerExecute()
+   at Fiddler.Session.Execute(Object objThreadState)
+
+
+Fiddler v10.0.10117.0 (x86 x86) [.NET 4.0.30319.42000 on Microsoft Windows NT 6.2.9200.0] 
+Session list contains: 113 sessions
+114:HTTP 304 for http://www.bet365.com/home/FlashGen4/InPlayLauncherModule/assets/language_file_1-4.asp
+Session list contains: 114 sessions
+115:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/titles_live_inplay_6/1.png
+Session list contains: 115 sessions
+116:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/1.png
+Session list contains: 116 sessions
+117:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/13.png
+Session list contains: 117 sessions
+118:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/16.png
+Session list contains: 118 sessions
+119:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/18.png
+Session list contains: 119 sessions
+120:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/3.png
+Session list contains: 120 sessions
+121:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/4.png
+Session list contains: 121 sessions
+122:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/monochromeIcons_2/2.png
+Session list contains: 122 sessions
+123:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/1.png
+Session list contains: 123 sessions
+124:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/13.png
+Session list contains: 124 sessions
+125:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGlobal/classificationIcons_14/2.png
+Session list contains: 125 sessions
+126:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 126 sessions
+** LogString: !SecureClientPipeDirect failed: System.IO.IOException Authentication failed because the remote party has closed the transport stream. on pipe to (CN=vortex.data.microsoft.com, O=DO_NOT_TRUST, OU=Created by http://www.fiddler2.com)
+127:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 127 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51360.
+128:HTTP 200 for http://www.bet365.com/home/FlashGen4/flashGlobal/resource-1403.asp?R=S4&csrt
+Session list contains: 128 sessions
+129:HTTP 304 for http://www.bet365.com/home/FlashGen4/flashGLobal/lib/SportsLib_RSL-478.swf
+Session list contains: 129 sessions
+130:HTTP 304 for http://www.bet365.com/home/FlashGen4/CouponHighlightsPodModule/CouponHighlightsPodModule-426.swf
+Session list contains: 130 sessions
+131:HTTP 304 for http://www.bet365.com/home/FlashGen4/CouponHighlightsPodModule/config-1.asp
+Session list contains: 132 sessions
+132:HTTP 304 for http://www.bet365.com/home/FlashGen4/ImagePodModule/ImagePodModule-423.swf
+Session list contains: 132 sessions
+133:HTTP 200 for http://www.bet365.com/home/inplayapi/FlashData.asp?lid=1&zid=1&pd=%23AP%23B1%23A%5E1%23C%5E2%23D%5E11%23E%5E21&wg=0&cid=197&csid=0&ctid=197&cgid=0
+134:HTTP 304 for http://www.bet365.com/home/FlashGen4/ImagePodModule/config-1.asp
+Session list contains: 134 sessions
+Session list contains: 135 sessions
+135:HTTP 304 for http://www.bet365.com/home/FlashGen4/ImagePodModule/ImagePodModule-423.swf
+Session list contains: 135 sessions
+136:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E1%23X1%23O%5E1%23w1%23tHP181905_L1_Z1_C2_W1%23pHR181904_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+137:HTTP 304 for http://www.bet365.com/home/FlashGen4/InfoPodModule/InfoPodModule-429.swf
+Session list contains: 137 sessions
+Session list contains: 138 sessions
+138:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E8%23B0%23Z%5E99%23O1%23C%5E2%23p%5E2%23X1%23O%5E1%23w1%23tHP181907_L1_Z1_C2_W1%23pHR181906_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 139 sessions
+139:HTTP 304 for http://www.bet365.com/home/Images/RHS/ImBan/260x100_PremLeague_eng_v6.gif
+140:HTTP 304 for http://www.bet365.com/home/FlashGen4/InfoPodModule/config-3.asp
+Session list contains: 140 sessions
+Session list contains: 141 sessions
+141:HTTP 304 for http://www.bet365.com/home/FlashGen4/RacingPodModule/RacingPodModule-448.swf
+Session list contains: 142 sessions
+142:HTTP 304 for http://www.bet365.com/home/Images/RHS/ImBan/eng_Blackjack_v6.png
+Session list contains: 143 sessions
+143:HTTP 304 for http://www.bet365.com/home/Images/RHS/ImBan/eng_Roulette_v6.png
+Session list contains: 144 sessions
+144:HTTP 304 for http://www.bet365.com/home/Images/RHS/ImBan/eng_HILOGAMBLER_v6.png
+Session list contains: 145 sessions
+145:HTTP 200 for http://www.bet365.com/home/pd001/ppds.ashx?lid=1&zid=1&pd=%23D%5E7%23B0%23Z%5E99%23O1%23C%5E2%23p%5E3%23X1%23O%5E1%23w1%23tHP181910_L1_Z1_C2_W1%23pHR181909_L1_Z1_C2_W1&wg=0&cid=197&csid=0&ctid=197&cgid=0
+Session list contains: 146 sessions
+146:HTTP 304 for http://www.bet365.com/home/FlashGen4/RacingPodModule/config-2.asp
+Session list contains: 147 sessions
+147:HTTP 304 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/HighlightsPodModule-444.swf
+Session list contains: 148 sessions
+148:HTTP 304 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_Football_Arsenal_AlexisSanchez_0814.jpg
+Session list contains: 149 sessions
+149:HTTP 304 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_soccer-bore-draw.jpg
+Session list contains: 150 sessions
+150:HTTP 304 for http://www.bet365.com/home/Images/RHS/extras/imgs/ex_RHS-Cash-Out-ENG_0315.jpg
+Session list contains: 151 sessions
+151:HTTP 304 for http://www.bet365.com/home/FlashGen4/RacingPodModule/assets/language_file_1-1.asp
+Session list contains: 152 sessions
+152:HTTP 304 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/config-2.asp
+Session list contains: 153 sessions
+153:HTTP 304 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/HighlightsPodModule-444.swf
+Session list contains: 154 sessions
+154:HTTP 200 for http://www.bet365.com/home/FlashGen4/HighlightsPodModule/assets/language_file_1-1.asp
+Session list contains: 154 sessions
+155:HTTP 304 for http://www.bet365.com/home/Images/RHS/highlights/hl_Football_SantiagoWanderers_CarlosMunoz_0815.jpg
+Session list contains: 155 sessions
+156:HTTP 304 for http://www.bet365.com/home/Images/RHS/highlights/hl_Football_IndependienteSantaFe_DayronMosquera_0815.jpg
+Session list contains: 157 sessions
+157:HTTP 304 for http://www.imagecache365.com/crossdomain.xml
+Session list contains: 157 sessions
+158:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/302453.GIF
+Session list contains: 163 sessions
+164:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/231127.GIF
+Session list contains: 164 sessions
+160:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/171.GIF
+Session list contains: 164 sessions
+159:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/151434.GIF
+Session list contains: 164 sessions
+162:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/10774.GIF
+Session list contains: 164 sessions
+161:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/11135.GIF
+Session list contains: 164 sessions
+163:HTTP 304 for http://www.imagecache365.com/JockeySilksTransparent/9060.GIF
+Session list contains: 164 sessions
+165:HTTP 200 for http://vortex.data.microsoft.com:443
+Session list contains: 165 sessions
+** LogString: [Fiddler] No HTTPS request was received from (vshub:12076) new client socket, port 51376.
+166:HTTP 200 for http://syndication.twitter.com:443
+Session list contains: 166 sessions
+** LogString: [Fiddler] No HTTPS request was received from (chrome:5240) new client socket, port 51378.
+Session list contains: 166 sessions
+Session list contains: 166 sessions
