@@ -180,7 +180,8 @@ namespace WebTrafficReader.Services
             {
                 if (oS.hostname == "bet365" || oS.hostname == "www.bet365.com")
                 {
-                    
+                    oS.utilDecodeRequest();
+                    oS.utilDecodeResponse();
                     oS.SaveSession(@"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\" + oS.id + ".txt", false);
                     //var data = JsonConvert.SerializeObject(oS);
                     //specificLogFileStreamWriter.WriteLine(data);
