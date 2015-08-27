@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTrafficAnalyser", "WebTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTrafficAnalyser.Tests", "WebTrafficAnalyser.Tests\WebTrafficAnalyser.Tests.csproj", "{82CEDA6E-3467-47C8-9CFA-683215DCED0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficReaderService", "TrafficReaderService\TrafficReaderService.csproj", "{AC93E44A-5352-4A68-8B33-40668E273F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{82CEDA6E-3467-47C8-9CFA-683215DCED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82CEDA6E-3467-47C8-9CFA-683215DCED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82CEDA6E-3467-47C8-9CFA-683215DCED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC93E44A-5352-4A68-8B33-40668E273F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC93E44A-5352-4A68-8B33-40668E273F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC93E44A-5352-4A68-8B33-40668E273F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC93E44A-5352-4A68-8B33-40668E273F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		{A2763996-9FF6-4B9B-AB2B-75C4257E1B4A} = {F0DD20CD-5E5B-421F-A474-8A19F1CD4EE8}
 		{1D038A65-4CC2-457A-95A8-ED6A7AEF8718} = {F0DD20CD-5E5B-421F-A474-8A19F1CD4EE8}
 		{82CEDA6E-3467-47C8-9CFA-683215DCED0B} = {F0DD20CD-5E5B-421F-A474-8A19F1CD4EE8}
+		{AC93E44A-5352-4A68-8B33-40668E273F6B} = {F0DD20CD-5E5B-421F-A474-8A19F1CD4EE8}
 	EndGlobalSection
 EndGlobal
