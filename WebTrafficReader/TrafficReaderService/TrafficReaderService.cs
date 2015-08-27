@@ -12,12 +12,12 @@ namespace TrafficReaderService
     public class TrafficReaderService : IDisposable
     {
         //https://msdn.microsoft.com/en-us/library/8bh11f1k.aspx
-        private StreamWriter streamWriter;
+        private StreamWriter logFileStreamWriter;
         private string logFilePath = @"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Fiddler_Log_and_Notifications.txt";
 
         public TrafficReaderService()
         {
-            streamWriter = new StreamWriter(logFilePath, true);
+            logFileStreamWriter = new StreamWriter(logFilePath, true);
         }
 
         #region IDisposable
@@ -40,9 +40,13 @@ namespace TrafficReaderService
 
             if (disposing)
             {
-                streamWriter.Flush();
-                streamWriter.Close();
-                streamWriter.Dispose();
+                logFileStreamWriter.Flush();
+                logFileStreamWriter.Close();
+                logFileStreamWriter.Dispose();
+
+                //specificLogFileStreamWriter.Flush();
+                //specificLogFileStreamWriter.Close();
+                //specificLogFileStreamWriter.Dispose();
                 // Free any other managed objects here. 
                 //
             }
@@ -75,13 +79,13 @@ namespace TrafficReaderService
             // Simply echo notifications to the console.  Because Fiddler.CONFIG.QuietMode=true 
             // by default, we must handle notifying the user ourselves.
             Fiddler.FiddlerApplication.OnNotification += delegate (object sender, NotificationEventArgs oNEA) {
-                streamWriter.WriteLine("** NotifyUser: " + oNEA.NotifyString);
-                streamWriter.Flush();
+                logFileStreamWriter.WriteLine("** NotifyUser: " + oNEA.NotifyString);
+                logFileStreamWriter.Flush();
                 //Console.WriteLine("** NotifyUser: " + oNEA.NotifyString);
             };
             Fiddler.FiddlerApplication.Log.OnLogString += delegate (object sender, LogEventArgs oLEA) {
-                streamWriter.WriteLine("** LogString: " + oLEA.LogString);
-                streamWriter.Flush();
+                logFileStreamWriter.WriteLine("** LogString: " + oLEA.LogString);
+                logFileStreamWriter.Flush();
                 //Console.WriteLine("** LogString: " + oLEA.LogString);
             };
 
@@ -136,15 +140,32 @@ namespace TrafficReaderService
                 Fiddler.FiddlerApplication.OnReadResponseBuffer += new EventHandler<RawReadEventArgs>(FiddlerApplication_OnReadResponseBuffer);
             */
 
+            Fiddler.FiddlerApplication.BeforeRequest += delegate (Fiddler.Session oS)
+            {
+                if (oS.hostname == "bet365" || oS.hostname == "www.bet365.com")
+                {
+                    oS.utilDecodeRequest();
+                    oS.SaveRequest(@"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\" + oS.id + ".txt", false);
+
+                    //var data = JsonConvert.SerializeObject(oS);
+                    //specificLogFileStreamWriter.WriteLine(data);
+                    //logFileStreamWriter.Flush();
+                }
+            };
 
             Fiddler.FiddlerApplication.BeforeResponse += delegate (Fiddler.Session oS) {
                 //Console.WriteLine("{0}:HTTP {1} for {2}", oS.id, oS.responseCode, oS.fullUrl);
-                streamWriter.WriteLine("{0}:HTTP {1} for {2}", oS.id, oS.responseCode, oS.fullUrl);
-                streamWriter.Flush();
+                logFileStreamWriter.WriteLine("{0}:HTTP {1} for {2}", oS.id, oS.responseCode, oS.fullUrl);
+                logFileStreamWriter.Flush();
 
-                if(oS.hostname == "bet365")
+                if (oS.hostname == "bet365" || oS.hostname == "www.bet365.com")
                 {
-                    var t = "stop";
+                    oS.utilDecodeResponse();
+                    oS.SaveResponse(@"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\" + oS.id + ".txt", false);
+
+                    //var data = JsonConvert.SerializeObject(oS);
+                    //specificLogFileStreamWriter.WriteLine(data);
+                    //logFileStreamWriter.Flush();
                 }
 
                 // Uncomment the following two statements to decompress/unchunk the
@@ -157,13 +178,18 @@ namespace TrafficReaderService
 
             Fiddler.FiddlerApplication.AfterSessionComplete += delegate (Fiddler.Session oS)
             {
-                if (oS.hostname == "bet365")
+                if (oS.hostname == "bet365" || oS.hostname == "www.bet365.com")
                 {
-                    var t = "stop";
+                    oS.utilDecodeRequest();
+                    oS.utilDecodeResponse();
+                    oS.SaveSession(@"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\" + oS.id + ".txt", false);
+                    //var data = JsonConvert.SerializeObject(oS);
+                    //specificLogFileStreamWriter.WriteLine(data);
+                    //logFileStreamWriter.Flush();
                 }
 
-                streamWriter.WriteLine("Session list contains: " + allFidlerSessions.Count.ToString() + " sessions");
-                streamWriter.Flush();
+                logFileStreamWriter.WriteLine("Session list contains: " + allFidlerSessions.Count.ToString() + " sessions");
+                logFileStreamWriter.Flush();
                 //Console.WriteLine("Finished session:\t" + oS.fullUrl); 
                 //Console.Title = ("Session list contains: " + allFidlerSessions.Count.ToString() + " sessions");
             };
@@ -179,13 +205,13 @@ namespace TrafficReaderService
 
 
             //Console.WriteLine(String.Format("Starting {0} ({1})...", Fiddler.FiddlerApplication.GetVersionString(), sSAZInfo));
-            streamWriter.WriteLine(String.Format("Starting {0}...", Fiddler.FiddlerApplication.GetVersionString()));
-            streamWriter.Flush();
+            logFileStreamWriter.WriteLine(String.Format("Starting {0}...", Fiddler.FiddlerApplication.GetVersionString()));
+            logFileStreamWriter.Flush();
 
             // For the purposes of this demo, we'll forbid connections to HTTPS 
             // sites that use invalid certificates. Change this from the default only
             // if you know EXACTLY what that implies.
-            Fiddler.CONFIG.IgnoreServerCertErrors = false;
+            //Fiddler.CONFIG.IgnoreServerCertErrors = false;
 
             // ... but you can allow a specific (even invalid) certificate by implementing and assigning a callback...
             // FiddlerApplication.OnValidateServerCertificate += new System.EventHandler<ValidateServerCertificateEventArgs>(CheckCert);
@@ -241,10 +267,10 @@ namespace TrafficReaderService
             FiddlerApplication.Log.LogFormat("Gateway: {0}", CONFIG.UpstreamGateway.ToString());
 
             //Console.WriteLine("Hit CTRL+C to end session.");
-            streamWriter.WriteLine("Created endpoint listening on port {0}", iPort);
-            streamWriter.WriteLine("Starting with settings: [{0}]", oFCSF);
-            streamWriter.WriteLine("Gateway: {0}", CONFIG.UpstreamGateway.ToString());
-            streamWriter.Flush();
+            logFileStreamWriter.WriteLine("Created endpoint listening on port {0}", iPort);
+            logFileStreamWriter.WriteLine("Starting with settings: [{0}]", oFCSF);
+            logFileStreamWriter.WriteLine("Gateway: {0}", CONFIG.UpstreamGateway.ToString());
+            logFileStreamWriter.Flush();
 
             // We'll also create a HTTPS listener, useful for when FiddlerCore is masquerading as a HTTPS server
             // instead of acting as a normal CERN-style proxy server.
