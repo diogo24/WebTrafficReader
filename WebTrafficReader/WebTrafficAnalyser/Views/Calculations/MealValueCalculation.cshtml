@@ -1,0 +1,87 @@
+﻿@model WebTrafficAnalyser.Api.Models.Calculations.MealValueCalculation
+
+@{
+    ViewBag.Title    = "MealValueCalculation";
+
+    var editFormName       = "mealValueCalculationFormName";
+    var calculateEventName = "calculateEventName";
+}
+
+<h2>Meal Value Calculation</h2>
+
+<div>
+    <div class="form-horizontal">
+        <form id="@editFormName">
+            <div class="form-group">
+                @Html.LabelFor(model => model.BaseValue, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-7">
+                    @Html.EditorFor(m => m.BaseValue, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.BaseValue, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.NumberRepetitions, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-7">
+                    @Html.EditorFor(m => m.NumberRepetitions, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.NumberRepetitions, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.ExpectedValue, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-7">
+                    @Html.EditorFor(m => m.ExpectedValue, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ExpectedValue, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-3" for="Result">Result</label>
+                <div class="col-md-7">
+                    <input class="text-box single-line valid" id="Result" name="Result" type="number" value="" disabled>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="pull-right">
+        <button id="meal-value-calculation-element-id" type="button" class="btn btn-primary">Calculate</button>
+    </div>
+</div>
+
+<h4>Table pre calculated meal value</h4>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.validator.unobtrusive.parse($("#@editFormName"));
+
+            $('#meal-value-calculation-element-id').click(calculateEventName);
+
+            function calculateEventName() {
+                if (!$('#NumberRepetitions').valid() || !$('#ExpectedValue').valid() || !$('#BaseValue').valid()) {
+                    alert('Invalid Elements');
+                    return;
+                }
+
+                var baseValue         = $('#BaseValue').val();
+                var numberRepetitions = $('#NumberRepetitions').val();
+                var expectedValue     = $('#ExpectedValue').val();
+
+                if (numberRepetitions <= 0 || expectedValue <= 0 || baseValue <= 0) {
+                    alert('All Values should be greater than zero (0)');
+                    return;
+                }
+
+                //client calculate for meal value
+                // x * (pow([base value],n)) = x + expectedValue
+                // x = [expected value] / (pow([base value],n) -1)
+                var result           = 0;
+                var repetitionsValue = Math.pow(baseValue, numberRepetitions) - 1;
+                result               = expectedValue / repetitionsValue;
+
+                $('#Result').val(result);
+                //alert('Result = ' + result);
+            }
+        });
+        
+    </script>
+}
+

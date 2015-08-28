@@ -218,6 +218,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CalculationsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TrafficController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -268,6 +269,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery.validation.date.bugfix.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -287,6 +289,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Traffic\Index.cshtml" />
+    <Content Include="Views\Calculations\Index.cshtml" />
+    <Content Include="Views\Calculations\MealValueCalculation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -303,6 +307,10 @@
     <ProjectReference Include="..\TrafficReaderService\TrafficReaderService.csproj">
       <Project>{ac93e44a-5352-4a68-8b33-40668e273f6b}</Project>
       <Name>TrafficReaderService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebTrafficAnalyser.Api\WebTrafficAnalyser.Api.csproj">
+      <Project>{b1080ef6-807c-4814-9472-2eff3ad6f3a2}</Project>
+      <Name>WebTrafficAnalyser.Api</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
