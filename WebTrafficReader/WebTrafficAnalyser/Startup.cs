@@ -14,8 +14,11 @@ namespace WebTrafficAnalyser
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
-            var trafficReaderService = new FiddleCoreService();
-            trafficReaderService.Start();
+            //var trafficReaderService = new FiddlerCoreService();
+            //trafficReaderService.Start();
+
+            var traffic2 = new FiddlerCoreServiceV2();
+            traffic2.Start();
         }
     }
 }

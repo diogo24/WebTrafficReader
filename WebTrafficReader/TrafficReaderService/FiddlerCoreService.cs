@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace TrafficReaderService
 {
-    public class FiddleCoreService : IDisposable
+    public class FiddlerCoreService : IDisposable
     {
         //https://msdn.microsoft.com/en-us/library/8bh11f1k.aspx
         private StreamWriter logFileStreamWriter;
         private string logFilePath = @"C:\Users\diogo.marques\Documents\GitHubVisualStudio\WebTrafficReader\FiddlerLogFiles\Fiddler_Log_and_Notifications.txt";
 
-        public FiddleCoreService()
+        public FiddlerCoreService()
         {
             logFileStreamWriter = new StreamWriter(logFilePath, true);
         }

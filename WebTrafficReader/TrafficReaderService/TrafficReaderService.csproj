@@ -52,7 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TrafficReaderService.cs" />
+    <Compile Include="FiddlerCoreService.cs" />
+    <Compile Include="FiddlerCoreServiceV2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
