@@ -1,0 +1,49 @@
+#header #menu li {
+	float: left;
+    margin: 5px;
+    list-style: none;
+}
+
+#week div {
+	float: left;
+	color: white;
+}
+
+.practice {
+	background-color: blue;
+}
+
+.game {
+	background-color: green;
+}
+
+.today {
+	background-color: red;
+}
+
+#news {
+	float: left;
+	width: 600px;
+	
+}
+
+#news .news-item {
+	border-color: lightblue;
+	border-style: solid;
+	border-width: 3px;
+	margin: 20px;
+}
+
+#next-game {
+	float: left;
+	border-color: grey;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#players-info {
+	float: right;
+	border-color: grey;
+	border-style: solid;
+	border-width: 3px;
+}

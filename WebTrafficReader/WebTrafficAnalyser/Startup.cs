@@ -17,8 +17,8 @@ namespace WebTrafficAnalyser
             //var trafficReaderService = new FiddlerCoreService();
             //trafficReaderService.Start();
 
-            var traffic2 = new FiddlerCoreServiceV2();
-            traffic2.Start();
+            //var traffic2 = new FiddlerCoreServiceV2();
+            //traffic2.Start();
         }
     }
 }
