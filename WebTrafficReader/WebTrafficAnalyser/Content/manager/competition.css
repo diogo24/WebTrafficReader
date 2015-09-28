@@ -1,0 +1,32 @@
+﻿#afc-divisions {
+    float: left;
+}
+
+#nfc-divisions {
+    float: right;
+}
+
+.standings-divisions {
+    float: left;
+    margin: 20px;
+}
+
+#player-offense-ranks {
+    float: left;
+}
+
+#player-defense-ranks {
+    float: left;
+}
+
+#team-offense-ranks {
+    float: right;
+}
+
+#team-defense-ranks {
+    float: right;
+}
+
+/*.stats-team-rank-list {
+    float: left;
+}*/

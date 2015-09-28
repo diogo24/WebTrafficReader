@@ -1,0 +1,560 @@
+﻿@model ManagerService.Competition.Models.Standings
+
+@{
+    ViewBag.Title = "Competition";
+    Layout        = "~/Views/Manager/_ManagerLayout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div id="afc-divisions">
+    <h2>AFC</h2>
+    <div class="standings-divisions">
+        <h3>East</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.East.Teams)
+                {
+                    <tr>
+                       <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>        
+    </div>
+    <div class="standings-divisions">
+        <h3>North</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.North.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="standings-divisions">
+        <h3>South</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.South.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="standings-divisions">
+        <h3>West</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.West.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="nfc-divisions">
+    <h2>NFC</h2>
+    <div class="standings-divisions">
+        <h3>East</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.East.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="standings-divisions">
+        <h3>North</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.North.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="standings-divisions">
+        <h3>South</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.South.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="standings-divisions">
+        <h3>West</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Lost</th>
+                    <th>Tie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in @Model.AFC.West.Teams)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Wins</td>
+                        <td>@team.Lost</td>
+                        <td>@team.Tie</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="clearfix" style="clear:both"></div>
+
+<div id="player-offense-ranks">
+    <h2>Player Stats Offense</h2>
+    <div class="stats-team-rank-list">
+        <h3>Total Offense</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Passing</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Rushing</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div id="player-defense-ranks">
+    <h2>Player Stats Defense</h2>
+    <div class="stats-team-rank-list">
+        <h3>Total Defense</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Passing</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Rushing</h3>
+        <ol>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+            <li>
+                <span>Tom Brady</span>
+                <span>NE</span>
+                <span>1112</span>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div id="team-offense-ranks">
+    <h2>Team Stats Offense</h2>
+    <div class="stats-team-rank-list">
+        <h3>Total Offense</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Passing</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Rushing</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div id="team-defense-ranks">
+    <h2>Team Stats Defense</h2>
+    <div class="stats-team-rank-list">
+        <h3>Total Defense</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Passing</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+    <div class="stats-team-rank-list">
+        <h3>Rushing</h3>
+        <ol>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+            <li>
+                <span>Patriots</span>
+                <span>446.3</span>
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+

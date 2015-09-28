@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManagerService.Competition;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,13 @@ namespace WebTrafficAnalyser.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult Competition()
+        {
+            var standings = new StandingsApi().GetStandings();
+
+            return View(standings);
         }
     }
 }

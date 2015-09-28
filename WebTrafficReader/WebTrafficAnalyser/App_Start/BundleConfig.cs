@@ -29,7 +29,9 @@ namespace WebTrafficAnalyser
                       "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/manager/css").Include(
-                      "~/Content/manager/home.css"));
+                      "~/Content/manager/home.css",
+                      "~/Content/manager/competition.css"
+                      ));
 
             bundles.Add(new StyleBundle("~/bundles/scripts/manager").Include(
                       "~/Scripts/manager/home.js"));

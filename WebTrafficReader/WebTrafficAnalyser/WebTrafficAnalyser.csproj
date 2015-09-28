@@ -238,6 +238,7 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\manager\competition.css" />
     <Content Include="Content\manager\home.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -296,6 +297,7 @@
     <Content Include="Views\Calculations\MealValueCalculation.cshtml" />
     <Content Include="Views\Manager\Index.cshtml" />
     <Content Include="Views\Manager\_ManagerLayout.cshtml" />
+    <Content Include="Views\Manager\Competition.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -309,6 +311,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ManagerService\ManagerService.csproj">
+      <Project>{5b539b3c-88e7-46e2-bb9b-17e232e80f13}</Project>
+      <Name>ManagerService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TrafficReaderService\TrafficReaderService.csproj">
       <Project>{ac93e44a-5352-4a68-8b33-40668e273f6b}</Project>
       <Name>TrafficReaderService</Name>
