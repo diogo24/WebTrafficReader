@@ -21,5 +21,10 @@ namespace WebTrafficAnalyser.Controllers
 
             return View(standings);
         }
+
+        public ActionResult Team()
+        {
+            return View();
+        }
     }
 }

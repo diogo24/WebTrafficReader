@@ -240,6 +240,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\manager\competition.css" />
     <Content Include="Content\manager\home.css" />
+    <Content Include="Content\manager\images\DoubleSlot_02_short.jpg" />
+    <Content Include="Content\manager\images\DoubleSlot_02_medium.jpg" />
+    <Content Include="Content\manager\images\DoubleSlot_02.jpg" />
+    <Content Include="Content\manager\team.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -298,6 +302,7 @@
     <Content Include="Views\Manager\Index.cshtml" />
     <Content Include="Views\Manager\_ManagerLayout.cshtml" />
     <Content Include="Views\Manager\Competition.cshtml" />
+    <Content Include="Views\Manager\Team.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

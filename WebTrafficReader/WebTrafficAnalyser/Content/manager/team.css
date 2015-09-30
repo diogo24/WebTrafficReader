@@ -1,0 +1,25 @@
+﻿#roster {
+    float:left;
+    /*display: inline-block;*/
+}
+
+.roster-container {
+    float: left;
+    margin: 0 20px;
+}
+
+#last-game-summary {
+    float: right;
+    margin: 0 20px;
+    /*position: absolute;
+    display: inline-block;*/
+}
+
+.top-performers-container {
+    float: left;
+    margin: 0 20px;
+}
+
+.top-performers-container img {
+    width: 224px;
+}

@@ -1,0 +1,270 @@
+﻿
+@{
+    ViewBag.Title = "Team";
+    Layout        = "~/Views/Manager/_ManagerLayout.cshtml";
+
+    var rosterRowRepetitions              = 27;
+    var rosterRowRepetitionsPracticeSquad = 10;
+    var topPerformersRepetitions          = 11;
+}
+
+<div id="roster">
+    <h2>@ViewBag.Title</h2>
+    <div id="roster-offense" class="roster-container">
+        <h3>Offense</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Condition</th>
+                    <th>GP</th>
+                    <th>Snaps</th>
+                    <th>Minutes</th>
+                    <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                    <th>Form</th>
+                    <th>Improving</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < rosterRowRepetitions; i++)
+            {
+                    <tr>
+                        <td>T. Brady</td>
+                        <td>QB</td>
+                        <td>95%</td>
+                        <td>3</td>
+                        <td>130</td>
+                        <td>250</td>
+                        <td>600</td>
+                        <td>8,9,8</td>
+                        <td>Pass Accurancy</td>
+                    </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+
+    <div id="roster-defense" class="roster-container">
+        <h3>Defense</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Condition</th>
+                    <th>GP</th>
+                    <th>Snaps</th>
+                    <th>Minutes</th>
+                    <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                    <th>Form</th>
+                    <th>Improving</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < rosterRowRepetitions; i++)
+            {
+                    <tr>
+                        <td>T. Brady</td>
+                        <td>QB</td>
+                        <td>95%</td>
+                        <td>3</td>
+                        <td>130</td>
+                        <td>250</td>
+                        <td>600</td>
+                        <td>8,9,8</td>
+                        <td>Pass Accurancy</td>
+                    </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="clearfix" style="clear:both"></div>
+
+    <div id="roster-practice-squad">
+        <h3>Practice Squad</h3>
+        <div class="roster-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Condition</th>
+                        <th>GP</th>
+                        <th>Snaps</th>
+                        <th>Minutes</th>
+                        <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                        <th>Form</th>
+                        <th>Improving</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < rosterRowRepetitionsPracticeSquad / 2; i++)
+                {
+                        <tr>
+                            <td>T. Brady</td>
+                            <td>QB</td>
+                            <td>95%</td>
+                            <td>3</td>
+                            <td>130</td>
+                            <td>250</td>
+                            <td>600</td>
+                            <td>8,9,8</td>
+                            <td>Pass Accurancy</td>
+                        </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="roster-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Condition</th>
+                        <th>GP</th>
+                        <th>Snaps</th>
+                        <th>Minutes</th>
+                        <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                        <th>Form</th>
+                        <th>Improving</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < rosterRowRepetitionsPracticeSquad / 2; i++)
+                {
+                        <tr>
+                            <td>T. Brady</td>
+                            <td>QB</td>
+                            <td>95%</td>
+                            <td>3</td>
+                            <td>130</td>
+                            <td>250</td>
+                            <td>600</td>
+                            <td>8,9,8</td>
+                            <td>Pass Accurancy</td>
+                        </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="last-game-summary">
+    <h2>Last Game Summary</h2>
+    <div>
+        <h3>Top Performers</h3>
+        <div>
+            <h4>Offense</h4>
+            <div id="TPO-players" class="top-performers-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Condition</th>
+                            <th>Snaps</th>
+                            <th>Minutes</th>
+                            <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                            <th>Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < topPerformersRepetitions; i++)
+                        {
+                            <tr>
+                                <td>T. Brady</td>
+                                <td>QB</td>
+                                <td>95%</td>
+                                <td>130</td>
+                                <td>250</td>
+                                <td>600</td>
+                                <td>8</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>  
+            <div id="TPO-plays" class="top-performers-container">
+                <img src="~/Content/manager/images/DoubleSlot_02_medium.jpg" alt="Top Plays" />
+            </div>
+        </div>
+        <div class="clearfix" style="clear:both"></div>
+        <div>
+            <h4>Defense</h4>
+            <div id="TPD-players" class="top-performers-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Condition</th>
+                            <th>Snaps</th>
+                            <th>Minutes</th>
+                            <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                            <th>Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < topPerformersRepetitions; i++)
+                        {
+                            <tr>
+                                <td>T. Brady</td>
+                                <td>QB</td>
+                                <td>95%</td>
+                                <td>130</td>
+                                <td>250</td>
+                                <td>600</td>
+                                <td>8</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>  
+            <div id="TPD-plays" class="top-performers-container">
+                <img src="~/Content/manager/images/DoubleSlot_02_medium.jpg" alt="Top Plays" />
+            </div>
+        </div>
+        <div class="clearfix" style="clear:both"></div>
+        <div>
+            <h4>Special Teams</h4>
+            <div id="TPST-players" class="top-performers-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Condition</th>
+                            <th>Snaps</th>
+                            <th>Minutes</th>
+                            <th>TSY</th> @*Total Spans Yards -> total yards that the team got in all snaps that the player was in the field *@
+                            <th>Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < 5; i++)
+                        {
+                            <tr>
+                                <td>T. Brady</td>
+                                <td>QB</td>
+                                <td>95%</td>
+                                <td>130</td>
+                                <td>250</td>
+                                <td>600</td>
+                                <td>8</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div id="TPD-plays" class="top-performers-container">
+                <img src="~/Content/manager/images/DoubleSlot_02_short.jpg" alt="Top Plays" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
