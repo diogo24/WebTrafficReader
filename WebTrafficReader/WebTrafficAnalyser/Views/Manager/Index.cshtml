@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Manager";
+    Layout        = "~/Views/Manager/_ManagerLayout.cshtml";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<div id="header">
+    <ul id="menu">
+        <li>Home</li>
+        <li><a href="@Url.Action("Team", "Manager")">Team</a></li>
+        <li><a href="@Url.Action("Competition", "Manager")">Competition</a></li>
+        <li>Settings</li>
+    </ul>
+</div>
+<div style="clear: both">
+    <div id="main">
+        <div id="week">
+            <p> Verify if the week display is needed and make sure that today is correct focus </p>
+            <div style="clear: both"></div>
+            <div class="practice">
+                25/09/2015 <br />
+                Practice Dominante ...
+            </div>
+            <div class="practice">
+                26/09/2015 <br />
+                Practice Dominante ...
+            </div>
+            <div class="practice today">
+                Today <br />
+                Practice Dominante ...
+            </div>
+            <div class="practice">
+                28/09/2015 <br />
+                Practice Dominante ...
+            </div>
+            <div class="practice">
+                29/09/2015 <br />
+                Practice Dominante ...
+            </div>
+            <div class="practice">
+                30/09/2015 <br />
+                Practice Dominante ...
+            </div>
+            <div class="game">
+                01/10/2015 <br />
+                Vs Giants
+            </div>
+        </div>
+        <div style="clear: both"> </div>
+        <div class="practice-details" style="display:none;">
+            Here display the practice details... Dominate...
+        </div>
+        <div id="">
+        </div>
+        <div id="news">
+            <div class="news-item">
+                Game report
+            </div>
+            <div class="news-item">
+                Practice report
+            </div>
+            <div class="news-item">
+                Offensive line coach report
+            </div>
+            <div class="news-item">
+                Deffensive line coach report
+            </div>
+            <div class="news-item">
+                Media news
+            </div>
+            <div class="news-item">
+                Other teams news
+            </div>
+        </div>
+        <div id="next-game">
+            <p>Next Game: vs Giants</p>
+            <p>Giants Stats</p>
+            <p>Yards per game: 100</p>
+            <p>PAss attempts: 10</p>
+            <p>Run attempts: 20</p>
+            <p>...</p>
+        </div>
+        <div style="clear: both"> </div>
+        <div id="players-info">
+            <ul>
+                <li>Player A injured, 2 weeks...</li>
+                <li>Player B fatigue</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+</div>
+
