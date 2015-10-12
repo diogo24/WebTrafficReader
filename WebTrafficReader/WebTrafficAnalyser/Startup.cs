@@ -19,6 +19,9 @@ namespace WebTrafficAnalyser
 
             //var traffic2 = new FiddlerCoreServiceV2();
             //traffic2.Start();
+
+            //var traffic3 = new FiddlerCoreServiceV3();
+            //traffic3.Start();
         }
     }
 }
