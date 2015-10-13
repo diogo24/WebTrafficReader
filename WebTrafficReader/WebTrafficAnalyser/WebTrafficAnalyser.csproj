@@ -319,7 +319,6 @@
     <Content Include="Views\Manager\_ManagerLayout.cshtml" />
     <Content Include="Views\Manager\Competition.cshtml" />
     <Content Include="Views\Manager\Team.cshtml" />
-    <Content Include="Views\BabylonJSPrototype\Index.cshtml" />
     <Content Include="Views\BabylonJSPrototype\_BabylonJSPrototypeLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
