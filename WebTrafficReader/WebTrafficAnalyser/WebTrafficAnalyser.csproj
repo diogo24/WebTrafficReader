@@ -218,6 +218,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BabylonJSPrototypeController.cs" />
     <Compile Include="Controllers\CalculationsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManagerController.cs" />
@@ -236,6 +237,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Assets\Spaceship\0.png" />
+    <Content Include="Content\BabylonJSPrototype\index.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\manager\competition.css" />
@@ -247,6 +250,13 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="hand.minified.js" />
+    <Content Include="index.html" />
+    <Content Include="index.js" />
+    <Content Include="Scripts\babylon.js" />
+    <Content Include="Scripts\babylon.max.js" />
+    <Content Include="Scripts\babylon.noworker.js" />
+    <Content Include="Scripts\BabylonJSPrototype\index.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -268,7 +278,9 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="Assets\Spaceship\Spaceship.babylon" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\hand.minified-1.2.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -279,9 +291,13 @@
     <Content Include="Scripts\jquery.validation.date.bugfix.js" />
     <Content Include="Scripts\manager\home.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Oimo.js" />
+    <Content Include="Scripts\poly2tri.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -303,6 +319,8 @@
     <Content Include="Views\Manager\_ManagerLayout.cshtml" />
     <Content Include="Views\Manager\Competition.cshtml" />
     <Content Include="Views\Manager\Team.cshtml" />
+    <Content Include="Views\BabylonJSPrototype\Index.cshtml" />
+    <Content Include="Views\BabylonJSPrototype\_BabylonJSPrototypeLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -311,7 +329,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
