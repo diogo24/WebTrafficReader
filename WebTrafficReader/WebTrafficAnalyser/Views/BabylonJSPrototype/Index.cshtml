@@ -6,9 +6,27 @@
 <div>
     <canvas id="renderCanvas"></canvas>
     <script language="javascript">
+        window.addEventListener('DOMContentLoaded', function () {
+            // your code here
+            
+            // Get the canvas element from our HTML below
+            var canvas = document.getElementById("renderCanvas");
 
-        //function defined in index.js
-        createScene();
+            // Load the BABYLON 3D engine
+            var engine = new BABYLON.Engine(canvas, true);
 
+            //function defined in index.js
+            var scene = createScene(engine, canvas);
+
+            // Register a render loop to repeatedly render the scene
+            engine.runRenderLoop(function () {
+                scene.render();
+            });
+
+            // Watch for browser/canvas resize events
+            window.addEventListener("resize", function () {
+                engine.resize();
+            });
+        });
     </script>
 </div>
